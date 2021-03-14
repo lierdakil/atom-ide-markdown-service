@@ -1,6 +1,6 @@
 dependencies:
-  dompurify: 2.2.6
-  marked: 1.2.9
+  dompurify: 2.2.7
+  marked: 2.0.1
 devDependencies:
   '@types/atom': 1.40.7
   '@types/dompurify': 2.2.1
@@ -1613,8 +1613,13 @@ packages:
     resolution:
       integrity: sha1-LeWaCCLVAn+r/28DLCsloqir5zg=
   /dompurify/2.2.6:
+    dev: true
     resolution:
       integrity: sha512-7b7ZArhhH0SP6W2R9cqK6RjaU82FZ2UPM7RO8qN1b1wyvC/NY1FNWcX1Pu00fFOAnzEORtwXe4bPaClg6pUybQ==
+  /dompurify/2.2.7:
+    dev: false
+    resolution:
+      integrity: sha512-jdtDffdGNY+C76jvodNTu9jt5yYj59vuTUyx+wXdzcSwAGTYZDAQkQ7Iwx9zcGrA4ixC1syU4H3RZROqRxokxg==
   /domutils/1.5.1:
     dependencies:
       dom-serializer: 0.2.2
@@ -3301,11 +3306,19 @@ packages:
     resolution:
       integrity: sha512-bJzx6nMoP6PDLPBFmg7+xRKeFZvFboMrGlxmNj9ClvX53KrmvM5bXFXEWjbz4cz1AFn+jWJ9z/DJSz7hrs0w3w==
   /marked/1.2.9:
+    dev: true
     engines:
       node: '>= 8.16.2'
     hasBin: true
     resolution:
       integrity: sha512-H8lIX2SvyitGX+TRdtS06m1jHMijKN/XjfH6Ooii9fvxMlh8QdqBfBDkGUpMWH2kQNrtixjzYUa3SH8ROTgRRw==
+  /marked/2.0.1:
+    dev: false
+    engines:
+      node: '>= 8.16.2'
+    hasBin: true
+    resolution:
+      integrity: sha512-5+/fKgMv2hARmMW7DOpykr2iLhl0NgjyELk5yn92iE7z8Se1IS9n3UsFm86hFXIkvMBmVxki8+ckcpjBeyo/hw==
   /mdn-data/2.0.6:
     dev: true
     resolution:
@@ -5354,10 +5367,10 @@ specifiers:
   atom-languageclient: ^1.0.6
   build-commit: 0.1.4
   cross-env: ^7.0.3
-  dompurify: ^2.2.6
+  dompurify: ^2.2.7
   eslint: 7.19.0
   eslint-config-atomic: ^1.9.0
-  marked: ^1.2.9
+  marked: ^2.0.1
   npm-check-updates: 11.1.1
   prettier: ^2.2.1
   rollup: ^2.38.4
